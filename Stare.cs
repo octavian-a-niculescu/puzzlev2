@@ -82,7 +82,7 @@ namespace puzzle
                     int val = _elemente[i, j];
 
                     if (val > prevVal
-                        || (val == ElementZero.Valoare && i == Randuri - 1 && j == Coloane - 1))
+                        || (val == _valoareElementZero && i == Randuri - 1 && j == Coloane - 1))
                     {
                         prevVal = val;
                     }
